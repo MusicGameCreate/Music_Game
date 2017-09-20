@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\システム">
+      <UniqueIdentifier>{22c334c7-aded-47d8-82e6-2dbb6782ef61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン">
+      <UniqueIdentifier>{5a699b34-a5a8-4104-a910-bcc49fc8ca3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト">
+      <UniqueIdentifier>{3c8e134c-768b-48f0-b251-7323c6a5a157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\オブジェクトのテンプレート">
+      <UniqueIdentifier>{94d0fef8-8672-4178-be4a-26d9895bd32d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\オブジェクト基本クラス">
+      <UniqueIdentifier>{770191ff-fd35-4984-9dd9-3ae29ee1434b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\システム">
+      <UniqueIdentifier>{b11e881d-2599-4925-a0f7-51d7e5c9efa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト">
+      <UniqueIdentifier>{8e65601e-18f4-43c7-9a9c-2d64b6e1b86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン">
+      <UniqueIdentifier>{6f870fb0-2cc1-4871-88ad-7f1f217807ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\オブジェクト基本クラス">
+      <UniqueIdentifier>{0ea787d0-3bed-4b1a-86e6-c7cd4ac722c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\オブジェクトのテンプレート">
+      <UniqueIdentifier>{3c565b11-91f3-4b1a-9aad-dc801f70e377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\タイトル用">
+      <UniqueIdentifier>{427362f6-d1a2-493a-9383-bba19454fa6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\タイトル用">
+      <UniqueIdentifier>{a43ddfff-99b7-4828-a69a-e6b3ee402074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\フェード用">
+      <UniqueIdentifier>{f9680479-54ae-445f-bfac-59e6d9e02dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\フェード用">
+      <UniqueIdentifier>{c22efdf2-98e2-4e54-ad64-309772aaaa1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\モードセレクト用">
+      <UniqueIdentifier>{9c8a17b1-7e96-4633-b62b-5053d89e7a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\モードセレクト用">
+      <UniqueIdentifier>{943754cb-62a0-4423-ba91-3ba6fb45ed8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\オプション用">
+      <UniqueIdentifier>{f69f15d2-b8ec-4bf5-96af-d2c12252a838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\オプション用">
+      <UniqueIdentifier>{0ae3a0b2-8b80-47e9-93ab-e6bc8e22ea5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\曲セレクト用">
+      <UniqueIdentifier>{6339b3fe-2325-4d2f-9ead-495bddd64b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\曲セレクト用">
+      <UniqueIdentifier>{b92b1f38-8659-4795-b052-d0496fb40473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\リザルト用">
+      <UniqueIdentifier>{2d6da9cd-c2ca-403f-acf2-e5be7c11bca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\リザルト用">
+      <UniqueIdentifier>{642921f5-21ca-43c5-8c52-8648ee3601af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\ゲームメイン用">
+      <UniqueIdentifier>{3bf60f26-fdb8-42d5-b38e-fb73cb4e1efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\ゲームメイン用">
+      <UniqueIdentifier>{dae26624-f83f-48f8-9e02-75224f6343c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\ゲームメイン用\Lane">
+      <UniqueIdentifier>{45b1dc01-4d7c-47f1-8e73-f71cf25961ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\ゲームメイン用\Lane">
+      <UniqueIdentifier>{e5fe695c-70a9-4e76-959b-9914ee00bb9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\ゲームメイン用\Notes">
+      <UniqueIdentifier>{11ec139b-9ada-4fa2-a282-f7fc1c136a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\ゲームメイン用\Notes">
+      <UniqueIdentifier>{c0940682-a5b7-4bfa-83c0-440b0563e93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\ゲームメイン用\DataReader">
+      <UniqueIdentifier>{f4c6b696-7438-4e7e-9805-6c1b292d0270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\ゲームメイン用\DataReader">
+      <UniqueIdentifier>{da0ac0d6-8b64-4893-b282-b18e4585b9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\DataMgr">
+      <UniqueIdentifier>{f7f39b27-166b-4702-9930-025f8da7dfb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\DataMgr">
+      <UniqueIdentifier>{ed60b9cd-bbf1-4f62-a82b-5b4d30ed22df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\ゲームメイン用\BPM">
+      <UniqueIdentifier>{c91138fb-aea9-4798-bc17-9ddac10b62d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\ゲームメイン用\BPM">
+      <UniqueIdentifier>{04a2e328-39ff-4faa-b753-756ba8dd98c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト\ゲームメイン用\Effect">
+      <UniqueIdentifier>{c732afed-1be2-47e9-83cc-0bfee72ff61d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト\ゲームメイン用\Effect">
+      <UniqueIdentifier>{24afeb9c-db14-4af4-aa78-2f8deef2ff52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CJudgment.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirectX.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="CFPS.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="CLight.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindowAPI.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Title_Scene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_Scene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_3D_Template.h">
+      <Filter>ヘッダー ファイル\オブジェクト\オブジェクトのテンプレート</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_2D_Template.h">
+      <Filter>ヘッダー ファイル\オブジェクト\オブジェクトのテンプレート</Filter>
+    </ClInclude>
+    <ClInclude Include="Model_Template.h">
+      <Filter>ヘッダー ファイル\オブジェクト\オブジェクトのテンプレート</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture_2D_Base.h">
+      <Filter>ヘッダー ファイル\オブジェクト\オブジェクト基本クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture_3D_Base.h">
+      <Filter>ヘッダー ファイル\オブジェクト\オブジェクト基本クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="CModel_Base.h">
+      <Filter>ヘッダー ファイル\オブジェクト\オブジェクト基本クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Load_Scene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade_Scene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_Scene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Title_Back.h">
+      <Filter>ヘッダー ファイル\オブジェクト\タイトル用</Filter>
+    </ClInclude>
+    <ClInclude Include="Title_Bill.h">
+      <Filter>ヘッダー ファイル\オブジェクト\タイトル用</Filter>
+    </ClInclude>
+    <ClInclude Include="Title_Model.h">
+      <Filter>ヘッダー ファイル\オブジェクト\タイトル用</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade_Background.h">
+      <Filter>ヘッダー ファイル\オブジェクト\フェード用</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeSelect_Scene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelect_Scene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Option_Scene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeSelect_Back.h">
+      <Filter>ヘッダー ファイル\オブジェクト\モードセレクト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Option_Back.h">
+      <Filter>ヘッダー ファイル\オブジェクト\オプション用</Filter>
+    </ClInclude>
+    <ClInclude Include="CMusic_Manager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_Score.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_MusicDataFrame.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_HoiruButton.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_ScoreFont.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug_DataSave.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_LevelFont.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_PushEffect.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_Background.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_MusicFrameBack.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_MaxCombo.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_MaxComboFont.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_Level.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_JacketImage.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_BPM.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_BPMFont.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_Bar.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="Lane.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\Lane</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLane.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\Lane</Filter>
+    </ClInclude>
+    <ClInclude Include="NotesMgr.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\Notes</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseNotes.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\Notes</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicDataReader.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\DataReader</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayDataMgr.h">
+      <Filter>ヘッダー ファイル\シーン\DataMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayDataMgr.h">
+      <Filter>ヘッダー ファイル\シーン\DataMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BpmMgr.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\BPM</Filter>
+    </ClInclude>
+    <ClInclude Include="WheelNotes.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\Notes</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Notes</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeServer.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_Background.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_BCWGauge.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_DifficultLevel.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_Frame.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_HiScore.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_Jacket.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_MaxComboNum.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_NowScore.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_Circuit.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_DifficultType.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="CFont_Base.h">
+      <Filter>ヘッダー ファイル\オブジェクト\オブジェクト基本クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Font_Template.h">
+      <Filter>ヘッダー ファイル\オブジェクト\オブジェクトのテンプレート</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_ComposerName.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_TitleFont.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Alphabet.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain_HiSpeed.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_ClearGaugeNum.h">
+      <Filter>ヘッダー ファイル\オブジェクト\リザルト用</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelect_BackEffect.h">
+      <Filter>ヘッダー ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelect_BackGround.h">
+      <Filter>ヘッダー ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelect_Jacket.h">
+      <Filter>ヘッダー ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelect_RightFrame.h">
+      <Filter>ヘッダー ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelect_LeftFrame.h">
+      <Filter>ヘッダー ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelect_Score.h">
+      <Filter>ヘッダー ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelect_BPM.h">
+      <Filter>ヘッダー ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelect_Illustrator.h">
+      <Filter>ヘッダー ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelect_Creator.h">
+      <Filter>ヘッダー ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicSelect_Level.h">
+      <Filter>ヘッダー ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_Library.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseTrackEvent.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="LongNotes.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\Notes</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectLaneEffect.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="NotesEffect.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmitter.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="NotesDecision.h">
+      <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirectX.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="CFPS.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="CInput.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="CJudgment.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CLight.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="CModel_Base.cpp">
+      <Filter>ソース ファイル\オブジェクト\オブジェクト基本クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture_2D_Base.cpp">
+      <Filter>ソース ファイル\オブジェクト\オブジェクト基本クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture_3D_Base.cpp">
+      <Filter>ソース ファイル\オブジェクト\オブジェクト基本クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindowAPI.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade_Scene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_Scene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Load_Scene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_2D_Template.cpp">
+      <Filter>ソース ファイル\オブジェクト\オブジェクトのテンプレート</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_3D_Template.cpp">
+      <Filter>ソース ファイル\オブジェクト\オブジェクトのテンプレート</Filter>
+    </ClCompile>
+    <ClCompile Include="Title_Scene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_Scene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Title_Back.cpp">
+      <Filter>ソース ファイル\オブジェクト\タイトル用</Filter>
+    </ClCompile>
+    <ClCompile Include="Title_Bill.cpp">
+      <Filter>ソース ファイル\オブジェクト\タイトル用</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade_Background.cpp">
+      <Filter>ソース ファイル\オブジェクト\フェード用</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeSelect_Scene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelect_Scene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Option_Scene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Model_Template.cpp">
+      <Filter>ソース ファイル\オブジェクト\オブジェクトのテンプレート</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeSelect_Back.cpp">
+      <Filter>ソース ファイル\オブジェクト\モードセレクト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Option_Back.cpp">
+      <Filter>ソース ファイル\オブジェクト\オプション用</Filter>
+    </ClCompile>
+    <ClCompile Include="Music_Data_Manager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_Score.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_MusicDataFrame.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_HoiruButton.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_ScoreFont.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug_DataSave.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_LevelFont.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_PushEffect.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_Background.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_MusicFrameBack.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_MaxCombo.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_MaxComboFont.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_JacketImage.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_Level.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_BPM.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_BPMFont.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_Bar.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLane.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Lane</Filter>
+    </ClCompile>
+    <ClCompile Include="Lane.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Lane</Filter>
+    </ClCompile>
+    <ClCompile Include="NotesMgr.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Notes</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseNotes.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Notes</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicDataReader.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\DataReader</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayDataMgr.cpp">
+      <Filter>ソース ファイル\シーン\DataMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="IPlayDataMgr.cpp">
+      <Filter>ソース ファイル\シーン\DataMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BpmMgr.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\BPM</Filter>
+    </ClCompile>
+    <ClCompile Include="WheelNotes.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Notes</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Notes</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeServer.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_Background.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_BCWGauge.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_Frame.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_DifficultLevel.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_HiScore.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_Jacket.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_MaxComboNum.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_NowScore.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_Circuit.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_DifficultType.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Font_Template.cpp">
+      <Filter>ソース ファイル\オブジェクト\オブジェクトのテンプレート</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_ComposerName.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_TitleFont.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain_HiSpeed.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用</Filter>
+    </ClCompile>
+    <ClCompile Include="CFont_Base.cpp">
+      <Filter>ソース ファイル\オブジェクト\オブジェクト基本クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Alphabet.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_ClearGaugeNum.cpp">
+      <Filter>ソース ファイル\オブジェクト\リザルト用</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelect_BackEffect.cpp">
+      <Filter>ソース ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelect_BackGround.cpp">
+      <Filter>ソース ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelect_Jacket.cpp">
+      <Filter>ソース ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelect_LeftFrame.cpp">
+      <Filter>ソース ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelect_Score.cpp">
+      <Filter>ソース ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelect_RightFrame.cpp">
+      <Filter>ソース ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelect_Illustrator.cpp">
+      <Filter>ソース ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelect_BPM.cpp">
+      <Filter>ソース ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelect_Creator.cpp">
+      <Filter>ソース ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicSelect_Level.cpp">
+      <Filter>ソース ファイル\オブジェクト\曲セレクト用</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX_Library.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseTrackEvent.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="LongNotes.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Notes</Filter>
+    </ClCompile>
+    <ClCompile Include="NotesEffect.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEmitter.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectLaneEffect.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="NotesDecision.cpp">
+      <Filter>ソース ファイル\オブジェクト\ゲームメイン用\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="ISceneChanger.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
