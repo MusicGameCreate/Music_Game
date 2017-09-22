@@ -201,7 +201,7 @@ void CMusicDataReader::MusicDataLoad(string fileName)
 	}
 
 	// 16•ª‚Ì”‚ğŠi”[
-	//m_MusicData.Notes.NotesCount.MajorCount = m_MusicData.Notes.Normal_L.size();
+	m_MusicData.Notes.NotesCount.BeatCount = m_MusicData.Notes.Normal_L.size();
 	m_MusicData.Notes.NotesCount.MajorCount =
 		(
 			m_MusicData.Notes.NotesCount.Normal_L_Count +

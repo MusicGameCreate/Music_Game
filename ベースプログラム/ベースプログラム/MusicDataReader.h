@@ -94,7 +94,8 @@ typedef struct
 	int Click_R_Long_Count;		// 右クリックロングノーツの数
 	int Wheel_U_Count;			// 上ホイールノーツの数
 	int Wheel_D_Count;			// 下ホイールノーツの数
-	int	MajorCount;				// 16分の総合数
+	int	BeatCount;				// 16分の総合数
+	int MajorCount;				// 総ノーツ数
 } NotesCount;
 
 // ノーツデータ構造体

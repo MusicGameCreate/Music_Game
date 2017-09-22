@@ -412,11 +412,11 @@ void CNotesMgr::Update()
 			//{
 			//	InitSoundFlag = true;
 			//}
-			if (BeatCount != reader.GetMusicData()->Notes.NotesCount.MajorCount)
+			if (BeatCount != reader.GetMusicData()->Notes.NotesCount.BeatCount)
 			{
 				NotesCreate(((NowSound - SoundTimer) * HiSpeed) - MajorBeatTime);
 
-				//if (BeatCount + 1 < reader.GetMusicData()->Notes.NotesCount.MajorCount)
+				//if (BeatCount + 1 < reader.GetMusicData()->Notes.NotesCount.BeatCount)
 				//BeatCount++;
 			}
 		}
@@ -785,7 +785,7 @@ void CNotesMgr::NotesCreate(double EmptyTime)
 {
 	int i = 0;
 	int num = 0;
-	if (BeatCount + 1 > reader.GetMusicData()->Notes.NotesCount.MajorCount)
+	if (BeatCount + 1 > reader.GetMusicData()->Notes.NotesCount.BeatCount)
 		return;
 	deque<int> Normal_L = reader.GetNotesData(NOTES_LIST_NORMAL_L);
 	deque<int> Normal_L_Long = reader.GetNotesData(NOTES_LIST_NORMAL_L_LONG);

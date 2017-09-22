@@ -411,11 +411,11 @@
     <ClInclude Include="NotesDecision.h">
       <Filter>ヘッダー ファイル\オブジェクト\ゲームメイン用\Effect</Filter>
     </ClInclude>
-    <ClInclude Include="BaseScene.h">
-      <Filter>ソース ファイル\シーン</Filter>
-    </ClInclude>
     <ClInclude Include="SceneMgr.h">
-      <Filter>ソース ファイル\シーン</Filter>
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
